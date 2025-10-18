@@ -3,7 +3,7 @@ name: RDP
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */6 * * *" # optional: restart every 6 hours automatically
+    - cron: "0 */5 * * *" # optional: restart every 6 hours automatically
 
 jobs:
   secure-rdp:
